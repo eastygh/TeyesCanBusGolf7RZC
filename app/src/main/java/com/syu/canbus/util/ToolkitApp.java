@@ -1,6 +1,5 @@
 package com.syu.canbus.util;
 
-import android.os.SystemProperties;
 import android.view.WindowManager;
 
 public class ToolkitApp {
@@ -32,7 +31,8 @@ public class ToolkitApp {
         return lp;
     }
 
-    public static boolean isScreenPort() {
-        return SystemProperties.get("ro.sf.hwrotation", "0").equals("90") || SystemProperties.get("ro.sf.hwrotation", "0").equals("180") || SystemProperties.get("ro.sf.hwrotation", "0").equals("270") || SystemProperties.get("ro.fyt.screen_port", "0").equals("1");
-    }
+//    public static boolean isScreenPort() {
+//        return SystemPropertiesProxy.getString("ro.sf.hwrotation", "0").equals("90") || SystemPropertiesProxy.getString("ro.sf.hwrotation", "0").equals("180") || SystemProperties.get("ro.sf.hwrotation", "0").equals("270") || SystemPropertiesProxy.getString("ro.fyt.screen_port", "0").equals("1");
+//    }
+
 }

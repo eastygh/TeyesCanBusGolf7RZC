@@ -2,7 +2,6 @@ package com.syu.canbus.ui;
 
 import android.content.Context;
 import android.graphics.drawable.ColorDrawable;
-import android.os.SystemProperties;
 import android.view.View;
 import android.widget.PopupWindow;
 
